@@ -94,3 +94,22 @@ function rollDice() {
 let dado = rollDice()
 console.log(dado)
 
+
+let hasSolved = false
+let hasHints = false
+if (~hasSolved && ~hasHints) {
+    showSolution()
+}
+function showSolution() {
+    console.log("Mostrando a solucao do exercicio...")
+}
+
+
+let likesDocs = true
+let likesStartups = false
+if (likesDocs || likesStartups) {
+    recommendMovie()
+}
+function recommendMovie() {
+    console.log("Esse filme parece bom para voce")
+}
