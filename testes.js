@@ -46,3 +46,37 @@ let messages = [
 let newMessage = "Eu também, muito importante fazer um portifólio!"
 messages.push(newMessage)
 console.log(messages)
+messages.push("")
+
+
+for (let count = 0; count <= 20; count++) {
+    console.log(count)
+}
+for (let count = 10; count <= 20; count++) {
+    console.log(count)
+}
+for (let i = 10; i <= 100; i += 10) {
+    console.log(i);
+}
+
+
+for (let i = 0; i < messages.length; i++) {
+    console.log(messages[i]);
+}
+
+
+cards = [7, 4, 9]
+for (let i = 0; i < cards.length; i++) {
+    console.log(cards[i])
+}
+
+
+player1Time = 102
+player2Time = 107
+function totalRaceTime() {
+    return player1Time + player2Time
+}
+let totalTime = totalRaceTime()
+console.log(totalTime)
+
+
