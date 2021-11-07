@@ -113,3 +113,17 @@ if (likesDocs || likesStartups) {
 function recommendMovie() {
     console.log("Esse filme parece bom para voce")
 }
+
+
+let airbnb = {
+    title: 'Dairsie Castle',
+    bedrooms: 6,
+    beds: 10,
+    pricePerNight: 1089,
+    hasLiked: false,
+    review: ['I loved!', "Muito bom, amei", "TOP"]
+}
+console.log(airbnb.title)
+console.log(airbnb.pricePerNight)
+console.log(airbnb.hasLiked)
+console.log(airbnb.review)
