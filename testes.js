@@ -80,3 +80,17 @@ let totalTime = totalRaceTime()
 console.log(totalTime)
 
 
+let randomNumber = Math.random() * 6
+console.log(randomNumber)
+
+
+let flooredNumber = Math.floor(Math.PI)
+console.log(flooredNumber)
+
+
+function rollDice() {
+    return Math.floor(Math.random() * 6) + 1
+}
+let dado = rollDice()
+console.log(dado)
+
