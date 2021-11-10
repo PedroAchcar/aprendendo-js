@@ -127,3 +127,65 @@ console.log(airbnb.title)
 console.log(airbnb.pricePerNight)
 console.log(airbnb.hasLiked)
 console.log(airbnb.review)
+
+
+// Pratica 1
+let person = {
+    name: "Pedro",
+    age: 21,
+    country: "Brasil"
+}
+function logData() {
+    console.log(person.name + " tem " + person.age + " anos de idade e mora no " + person.country)
+}
+logData()
+
+
+
+// Pratica 2
+let age2 = 15
+if (age2 < 6) {
+    console.log("Entrada gratis")
+} else if (age2 < 18) {
+    console.log("Desconto para crianca")
+} else if (age2 < 27) {
+    console.log("Desconto para estudante")
+} else if (age2 <= 66) {
+    console.log("Entrada inteira")
+} else {
+    console.log("Desconto para idosos")
+}
+
+
+// Pratica 3
+let largePopulations = ["China", "India", "EUA", "Indonesia", "Paquistao"]
+console.log("Os paises mais populosos do mundo sao:")
+for (let i = 0; i < largePopulations.length; i++) {
+    console.log("- ", largePopulations[i])
+}
+
+
+// Pratica 4
+let largePopulations2 = ["Canada", "India", "EUA", "Indonesia", "Russia"]
+largePopulations2.pop()
+largePopulations2.push('Paquistao')
+largePopulations2.shift()
+largePopulations2.unshift("China")
+console.log(largePopulations2)
+
+
+// Pratica 5
+let diaDoMes = 13
+let diaDaSemana = "Sexta"
+if (diaDoMes === 13 && diaDaSemana === "Sexta") {
+    console.log("Hoje eh sexta 13")
+}
+
+
+// Pratica 6
+let hands = ["Pedra", "Papel", "Tesoura"]
+function getHand() {
+    let index = Math.floor(Math.random() * 3)
+    return hands[index]
+}
+console.log(getHand())
